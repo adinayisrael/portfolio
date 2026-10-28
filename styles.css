@@ -14,7 +14,7 @@ body {
     font-size: 21px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
     padding: 12px;
-    border: 7px none rgb(125, 39, 237);
+    border: 7px dashed rgb(125, 39, 237);
     margin: 10px;
 }
 

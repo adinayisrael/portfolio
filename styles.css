@@ -7,7 +7,7 @@ body {
     padding: 12px;
     border: 10px double rgb(94, 230, 225);
     margin: 11px;
-    color: rgb(238, 145, 238); 
+    color: rgb(239, 67, 239); 
 }
 
 #intro {
@@ -41,4 +41,19 @@ h1 {
     margin: 15px;
     color: rgb(241, 98, 189);
 
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-box {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
 }
